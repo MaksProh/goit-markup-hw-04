@@ -1,0 +1,83 @@
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.filtr .btn {
+  padding: 6px 22px;
+  border-radius: 4px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--black-text);
+}
+
+.btn:hover,
+.btn:focus {
+  color: var(--white-text);
+  background-color: var(--blu-text);
+}
+
+.project .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--black-text);
+}
+
+.project .industry {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--grey-text);
+}
+
+.btn {
+  background-color: var(--background-btn);
+  font-family: inherit;
+}
+
+.filtr .item:not(:last-child) {
+  margin-right: 8px;
+}
+
+.filtr {
+  justify-content: center;
+  margin-top: 92px;
+  margin-bottom: 50px;
+  padding: 0;
+  display: flex;
+}
+
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
+
+.project .item {
+  width: calc((100% - 60px) / 3);
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.project .item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.project .item:nth-last-child(- n + 3) {
+  margin-bottom: 0;
+}
+
+.project-desc {
+  margin: 20px 24px;
+}
+
+.project-desc .title {
+  margin-bottom: 4px;
+}
+
+.project {
+  margin-bottom: 94px;
+}
