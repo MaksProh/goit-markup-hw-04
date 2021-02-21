@@ -10,6 +10,8 @@
   --background-hero: rgba(47, 48, 58, 0.4);
   --background-advantages: #f5f4fa;
   --color-link: #afb1b8;
+  --backgrouund-links-footer: rgba(255, 255, 255, 0.1);
+  --color-border-portfolio: #eeeeee;
 }
 
 .nav .link {
@@ -71,10 +73,6 @@
 }
 
 .contacts-nav .mail {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 0;
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -176,7 +174,7 @@ button {
 .webstudio-footer {
   display: inline-block;
   margin-left: 0;
-  /* margin-top: 60px; */
+  margin-top: 60px;
   margin-bottom: 20px;
 }
 
@@ -210,11 +208,13 @@ h2 {
   padding: 0;
 }
 
-.mail,
+.contacts-nav .mail,
 .pfone {
   min-width: 161px;
   display: flex;
   align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .icon-mail {
@@ -222,8 +222,7 @@ h2 {
   height: 12px;
   display: block;
   margin-right: 10px;
-  fill: var(--grey-text);
-  /* padding: 32px 0; */
+  fill: currentColor;
 }
 
 .icon-mail:hover,
@@ -236,5 +235,31 @@ h2 {
   height: 16px;
   display: block;
   margin-right: 10px;
-  fill: var(--grey-text);
+  fill: currentColor;
+}
+
+/* СОЦСЕТИ В ФУТЕРЕ */
+
+.container-footer {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-links {
+  margin-left: 70px;
+}
+
+.connect {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--white-text);
+}
+
+.icon-footer {
+  fill: var(--white-text);
+}
+
+.item-footer {
+  background-color: var(--backgrouund-links-footer);
 }
