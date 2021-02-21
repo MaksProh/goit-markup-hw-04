@@ -7,9 +7,11 @@
   --white-transparent-text: rgba(255, 255, 255, 0.6);
   --bold-black: #000000;
   --background-btn: #f5f4fa;
+  --background-hero: #c4c4c4;
 }
 
-.nav .link {
+.nav .link,
+.contacts-nav {
   display: inline-block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -137,7 +139,6 @@ button {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 1px solid tomato;
 }
 
 .container-nav {
@@ -183,7 +184,7 @@ button {
   margin: 0;
 }
 
-.contacts-nav .item + .item {
+.contacts-nav .item-nav + .item-nav {
   margin-left: 50px;
 }
 
@@ -201,3 +202,34 @@ h2 {
 .hero-button {
   margin: 0;
 }
+
+/* Добавление и форматирование иконок для HEADER */
+
+.mail,
+.pfone {
+  display: flex;
+  align-items: center;
+}
+
+.icon-mail {
+  width: 16px;
+  height: 12px;
+  display: block;
+  margin-right: 10px;
+  fill: var(--grey-text);
+}
+
+.icon-mail:hover,
+.icon-tel:hover {
+  fill: currentColor;
+}
+
+.icon-tel {
+  width: 10px;
+  height: 16px;
+  display: block;
+  margin-right: 10px;
+  fill: var(--grey-text);
+}
+
+Иконки 
