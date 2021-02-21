@@ -52,7 +52,8 @@ h1 {
 }
 
 .work,
-.command {
+.command,
+.clients-title {
   font-weight: 700;
   line-height: 1.16;
   color: var(--black-text);
@@ -95,16 +96,16 @@ h1 {
   margin-bottom: 94px;
   margin-top: 50px;
   text-align: center;
-  outline: 1px solid tomato;
+
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .initials {
   margin-top: 30px;
   margin-bottom: 10px;
-}
-
-.profession {
-  margin-bottom: 30px;
 }
 
 .title-command .item:nth-child(4n) {
@@ -183,6 +184,7 @@ h1 {
   width: 270px;
   height: 120px;
   background-color: var(--background-advantages);
+  border-radius: 4px;
 }
 
 .icon-antenna {
@@ -196,6 +198,7 @@ h1 {
 .social-list {
   width: 206px;
   padding: 0;
+  margin-top: 16px;
   margin-bottom: 20px;
   display: inline-flex;
   justify-content: space-between;
@@ -209,7 +212,7 @@ h1 {
   padding: 12px 12px;
 }
 
-.inst {
+.item-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -217,14 +220,61 @@ h1 {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  color: #ffffff;
-  background-color: #ffffff;
+  color: var(--white-text);
+  background-color: var(--white-text);
 }
 
-.inst:hover {
+.item-link:hover {
   background-color: var(--blu-text);
 }
 
 .icon-link:hover {
   fill: currentColor;
+}
+
+/* ИКОНКИ ДЛЯ ПОСТОЯННЫХ КЛИЕНТОВ */
+
+.container-clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.clients {
+  padding: 94px auto;
+  margin: 0 auto;
+}
+
+.clients-title {
+  text-align: center;
+}
+
+.clients-list {
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+
+  width: calc((100% - 150px) / 6);
+}
+
+.clients-item:nth-child(6n) {
+  margin-right: 0;
+}
+
+.clients-item {
+  margin-right: 30px;
+}
+
+.clients-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  border: 1px solid var(--color-link);
+}
+
+.clients-icon {
+  width: 44.27px;
+  height: 49.23px;
+  fill: var(--color-link);
 }
