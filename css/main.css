@@ -1,5 +1,6 @@
 body {
   font-family: Roboto, sans-serif;
+  margin: 0;
 }
 
 h1 {
@@ -11,7 +12,7 @@ h1 {
 }
 
 .container-hero {
-  width: 1170px;
+  width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -84,17 +85,28 @@ h1 {
   display: flex;
 }
 
+.command {
+  text-align: center;
+  padding-top: 94px;
+}
+
+.fon-command {
+  width: 1600px;
+  padding: 0;
+  margin: 0 auto;
+  background-color: var(--background-btn);
+}
+
 .title-command {
   display: flex;
   flex-wrap: wrap;
-  padding: 0;
+  padding-bottom: 94px;
+  padding-top: 50px;
 }
 
 .title-command .item {
   width: calc((100% - 90px) / 4);
   margin-right: 30px;
-  margin-bottom: 94px;
-  margin-top: 50px;
   text-align: center;
 
   background: #ffffff;
@@ -112,10 +124,8 @@ h1 {
   margin-right: 0;
 }
 
-.title-command .work {
-  text-align: center;
-  margin-top: 94px;
-  margin-bottom: 50px;
+.container-work {
+  padding: 94px 0;
 }
 
 .work-img {
@@ -127,7 +137,6 @@ h1 {
 
 .work-img .item {
   width: calc((100% - 60px) / 3);
-  margin-bottom: 94px;
 }
 
 .work-img .item:not(:last-child) {
@@ -152,23 +161,19 @@ h1 {
 }
 
 .list-advantages {
-  padding: 0;
-  margin-top: 94px;
-  margin-bottom: 94px;
+  margin: 0;
+  padding-top: 94px;
 }
 
-.command,
 .work {
   text-align: center;
-  margin-top: 94px;
   margin-bottom: 50px;
 }
 
 /* Фон для HERO */
 
 .fon-hero {
-  max-width: 1600px;
-  min-height: 600px;
+  width: 1600px;
   padding: 0;
   margin: 0 auto;
   background-image: url(../img/fonhero.jpg);
@@ -268,6 +273,11 @@ h1 {
   margin-right: 30px;
 }
 
+.clients-link:hover {
+  border: 1px solid var(--blu-text);
+  color: var(--blu-text);
+}
+
 .clients-link {
   padding: 0;
   margin: 0;
@@ -306,20 +316,6 @@ h1 {
   fill: var(--color-link);
 }
 
-.clients-link:hover {
-  border: 1px solid var(--blu-text);
-  color: var(--blu-text);
-}
-
-.icon-yaco:hover,
-.icon-tagline:hover,
-.icon-company:hover,
-.icon-ctl:hover,
-.icon-foster:hover,
-.icon-brand:hover {
-  fill: currentColor;
-}
-
 .icon-brand {
   width: 59px;
   height: 47px;
@@ -348,4 +344,13 @@ h1 {
   padding-left: 41px;
   padding-right: 40.52;
   fill: var(--color-link);
+}
+
+.icon-yaco:hover,
+.icon-tagline:hover,
+.icon-company:hover,
+.icon-ctl:hover,
+.icon-foster:hover,
+.icon-brand:hover {
+  fill: currentColor;
 }

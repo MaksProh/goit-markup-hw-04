@@ -97,8 +97,9 @@
 }
 
 .fon-footer {
-  min-height: 252px;
+  width: 1600px;
   background-color: var(--grey-fone);
+  margin: 0 auto;
 }
 
 ul {
@@ -134,7 +135,7 @@ button {
 /* Стили для геометрии общие */
 
 .container {
-  width: 1170px;
+  width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -180,6 +181,8 @@ button {
 
 .contacts-footer {
   padding: 0;
+  padding-top: 20px;
+  padding-bottom: 60px;
   margin: 0;
 }
 

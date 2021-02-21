@@ -1,5 +1,6 @@
 body {
   font-family: Roboto, sans-serif;
+  margin: 0;
 }
 
 .filtr .btn {
@@ -16,6 +17,11 @@ body {
 .btn:focus {
   color: var(--white-text);
   background-color: var(--blu-text);
+}
+
+.container-projects {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .project .title {
@@ -43,9 +49,9 @@ body {
 
 .filtr {
   justify-content: center;
-  margin-top: 92px;
-  margin-bottom: 50px;
+  margin: 0;
   padding: 0;
+  padding-bottom: 34px;
   display: flex;
 }
 
@@ -78,10 +84,6 @@ body {
 
 .project-desc .title {
   margin-bottom: 4px;
-}
-
-.project {
-  margin-bottom: 94px;
 }
 
 .project .item:hover {
