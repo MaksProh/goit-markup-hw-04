@@ -7,11 +7,12 @@
   --white-transparent-text: rgba(255, 255, 255, 0.6);
   --bold-black: #000000;
   --background-btn: #f5f4fa;
-  --background-hero: #c4c4c4;
+  --background-hero: rgba(47, 48, 58, 0.4);
+  --background-advantages: #f5f4fa;
+  --color-link: #afb1b8;
 }
 
-.nav .link,
-.contacts-nav {
+.nav .link {
   display: inline-block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -205,8 +206,13 @@ h2 {
 
 /* Добавление и форматирование иконок для HEADER */
 
+.contacts-nav {
+  padding: 0;
+}
+
 .mail,
 .pfone {
+  min-width: 161px;
   display: flex;
   align-items: center;
 }
@@ -217,6 +223,7 @@ h2 {
   display: block;
   margin-right: 10px;
   fill: var(--grey-text);
+  /* padding: 32px 0; */
 }
 
 .icon-mail:hover,
@@ -231,5 +238,3 @@ h2 {
   margin-right: 10px;
   fill: var(--grey-text);
 }
-
-Иконки 

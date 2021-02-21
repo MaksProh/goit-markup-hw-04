@@ -10,10 +10,6 @@ h1 {
   font-weight: 900;
 }
 
-.fon-hero {
-  background-color: var(--grey-fone);
-}
-
 .container-hero {
   width: 1170px;
   margin: 0 auto;
@@ -165,4 +161,70 @@ h1 {
   text-align: center;
   margin-top: 94px;
   margin-bottom: 50px;
+}
+
+/* Фон для HERO */
+
+.fon-hero {
+  max-width: 1600px;
+  min-height: 600px;
+  padding: 0;
+  margin: 0 auto;
+  background-image: url(../img/fonhero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--background-hero);
+}
+
+/* ИКОНКИ НАШИ ПРЕИМУЩЕСТВА */
+
+.thumb {
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+  background-color: var(--background-advantages);
+}
+
+.icon-antenna {
+  width: 70px;
+  height: 70px;
+  padding: 25px 100px;
+}
+
+/* ИКОНКИ СОЦ.СЕТЕЙ В КАРТОЧКАХ КОМАНДЫ */
+
+.social-list {
+  width: 206px;
+  padding: 0;
+  margin-bottom: 20px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon-link {
+  width: 20px;
+  height: 20px;
+  fill: var(--color-link);
+  padding: 12px 12px;
+}
+
+.inst {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: #ffffff;
+  background-color: #ffffff;
+}
+
+.inst:hover {
+  background-color: var(--blu-text);
+}
+
+.icon-link:hover {
+  fill: currentColor;
 }
