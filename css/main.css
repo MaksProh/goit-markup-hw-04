@@ -184,7 +184,7 @@ h1 {
 
 /* ИКОНКИ НАШИ ПРЕИМУЩЕСТВА */
 
-.thumb {
+.container-icon {
   margin-bottom: 30px;
   width: 270px;
   height: 120px;
@@ -197,6 +197,32 @@ h1 {
   height: 70px;
   padding: 25px 100px;
 }
+
+/* ТУМБЫ ДЛЯ КАРТИНОК */
+
+/* .thumb-work {
+  width: 370px;
+  height: 294px;
+}
+
+.work-img img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.thumb-command {
+  width: 270px;
+  height: 260px;
+}
+
+.title-command img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+} */
 
 /* ИКОНКИ СОЦ.СЕТЕЙ В КАРТОЧКАХ КОМАНДЫ */
 
