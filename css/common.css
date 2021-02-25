@@ -100,6 +100,7 @@
   width: 1600px;
   background-color: var(--grey-fone);
   margin: 0 auto;
+  padding: 60px 0;
 }
 
 ul {
@@ -158,6 +159,7 @@ button {
 }
 
 .contacts-nav {
+  margin: 0;
   margin-left: auto;
   padding: 0;
   display: flex;
@@ -175,14 +177,12 @@ button {
 .webstudio-footer {
   display: inline-block;
   margin-left: 0;
-  margin-top: 60px;
+
   margin-bottom: 20px;
 }
 
 .contacts-footer {
   padding: 0;
-  padding-top: 20px;
-  padding-bottom: 60px;
   margin: 0;
 }
 
@@ -253,6 +253,7 @@ h2 {
 }
 
 .connect {
+  margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -265,4 +266,8 @@ h2 {
 
 .item-footer {
   background-color: var(--backgrouund-links-footer);
+}
+
+.social-list {
+  margin: 0;
 }

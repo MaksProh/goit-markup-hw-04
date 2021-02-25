@@ -14,10 +14,8 @@ h1 {
 .container-hero {
   width: 1200px;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
   text-align: center;
-  min-height: 600px;
 }
 
 .hero-button {
@@ -43,6 +41,8 @@ h1 {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .list-advantages .list-description {
@@ -77,6 +77,7 @@ h1 {
   font-size: 16px;
   line-height: 1.19;
   color: var(--grey-text);
+  margin-bottom: 16px;
 }
 
 /* Стили для геометрии */
@@ -116,12 +117,15 @@ h1 {
 }
 
 .initials {
-  margin-top: 30px;
   margin-bottom: 10px;
 }
 
 .title-command .item:nth-child(4n) {
   margin-right: 0;
+}
+
+.command-common {
+  padding: 30px 32px;
 }
 
 .container-work {
@@ -145,7 +149,6 @@ h1 {
 
 .text-hero {
   display: inline-block;
-  margin-top: 200px;
   margin-bottom: 20px;
   width: 696px;
   letter-spacing: 0.06em;
@@ -174,7 +177,7 @@ h1 {
 
 .fon-hero {
   width: 1600px;
-  padding: 0;
+  padding: 200px 0;
   margin: 0 auto;
   background-image: url(../img/fonhero.jpg);
   background-repeat: no-repeat;
@@ -185,7 +188,6 @@ h1 {
 /* ИКОНКИ НАШИ ПРЕИМУЩЕСТВА */
 
 .container-icon {
-  margin-bottom: 30px;
   width: 270px;
   height: 120px;
   background-color: var(--background-advantages);
@@ -200,7 +202,7 @@ h1 {
 
 /* ТУМБЫ ДЛЯ КАРТИНОК */
 
-/* .thumb-work {
+.thumb-work {
   width: 370px;
   height: 294px;
 }
@@ -213,7 +215,6 @@ h1 {
 }
 
 .thumb-command {
-  width: 270px;
   height: 260px;
 }
 
@@ -222,15 +223,13 @@ h1 {
   max-width: 100%;
   max-height: 100%;
   object-fit: cover;
-} */
+}
 
 /* ИКОНКИ СОЦ.СЕТЕЙ В КАРТОЧКАХ КОМАНДЫ */
 
 .social-list {
   width: 206px;
   padding: 0;
-  margin-top: 16px;
-  margin-bottom: 20px;
   display: inline-flex;
   justify-content: space-between;
   align-items: center;
