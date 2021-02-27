@@ -140,6 +140,28 @@ h1 {
   margin-bottom: 50px;
 }
 
+.thumb-work {
+  height: 294px;
+}
+
+.work-img .img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.thumb-command {
+  height: 260px;
+}
+
+.title-command img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
 /* НАША КОМАНДА */
 
 .title-command {
@@ -164,6 +186,7 @@ h1 {
 
 .command {
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .fon-command {
@@ -200,36 +223,6 @@ h1 {
 
 .command-common {
   padding: 30px 32px;
-}
-
-/* Стили для геометрии */
-
-/* Фон для HERO */
-
-/* ИКОНКИ НАШИ ПРЕИМУЩЕСТВА */
-
-/* ТУМБЫ ДЛЯ КАРТИНОК */
-
-.thumb-work {
-  height: 294px;
-}
-
-.work-img .img {
-  display: block;
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: cover;
-}
-
-.thumb-command {
-  height: 260px;
-}
-
-.title-command img {
-  display: block;
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: cover;
 }
 
 /* ИКОНКИ СОЦ.СЕТЕЙ В КАРТОЧКАХ КОМАНДЫ */
